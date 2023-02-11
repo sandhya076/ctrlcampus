@@ -1,7 +1,7 @@
 import express from "express";
 import User from "../model/User.js";
 import verifyTokenAndAdmin from "./verifyTokenAndAdmin.js";
-import verifyTokenAndAuthorization from "./verifyTokenAndAutherization.js";
+import verifyTokenAndAuthorization from "./verifyTokenAndAuthorization.js";
 
 const router = express.Router();
 

@@ -19,6 +19,9 @@ app.use("/products",product);
 app.use("/checkout",stripe);
 app.use("/user",user);
 app.use("/auth",auth);
+const CONNECTION_URL =
+  "mongodb+srv://sandhya:sandhya@cluster0.trov7.mongodb.net/TASK";
+
 const PORT = process.env.PORT || 5001;
 mongoose
   .connect(CONNECTION_URL)
